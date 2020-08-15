@@ -1,6 +1,6 @@
 from flask import Flask, request 
 import boto3
-
+#inicio flask
 app = Flask(__name__)
 
 @app.route('/')
